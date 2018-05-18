@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title='Login page'
+        link(rel='stylesheet', href='style.css')
+    body
+        h1 Login Page
+        form(action='http://localhost:3000/auth/google', method='GET')
+            input.login(type='name', placeholder='Put your name here!')
+            input.login(type='name', placeholder='Put your last name here!')
+            input.login(type='password', placeholder='Place for yor password!')
+            button.btn-1(type='submit') Submit
+
