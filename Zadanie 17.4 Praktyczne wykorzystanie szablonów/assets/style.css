@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+}
+h1 {
+    color: red;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 200px;
+    height: 80vh;
+    margin: 0 auto;
+    box-shadow: 1px 1px 2px 2px;
+    color: lightgray;
+}
+.login {
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+.login::placeholder {
+    font-size: 14px;
+}
+.btn-1 {
+    margin-top: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 35%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10%;
+    box-shadow: 1px 1px;
+    border: none;
+    cursor: pointer;
+    background-color: none;
+    outline: none;
+}
