@@ -23,8 +23,8 @@ function(accessToken, refreshToken, profile, cb) {
         id: profile.id,
         displayName: profile.displayName
     };
-    cb(null, profile);
-}
+        cb(null, profile);
+    }
 ));
 
 app.set('view engine', 'pug');
@@ -42,13 +42,13 @@ app.get('/logged', function(req, res){
 });
 
 app.get('/auth/google',
-passport.authenticate('google', {
-scope : ['profile', 'email']
+    passport.authenticate('google', {
+        scope : ['profile', 'email']
 }));
 app.get('/auth/google/callback',
     passport.authenticate('google', {
         successRedirect : '/logged',
         failureRedirect: '/'
-    }));
+}));
 
 app.listen(3000);
