@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+}
+h1 {
+    color: red;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+p {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+a {
+    color: black;
+    width: 35%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10%;
+    box-shadow: 2px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: lightgray;
+}
+a:focus {
+    color: red;
+}
